@@ -3,7 +3,7 @@ pragma solidity ^0.8.19;
 
 import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 
-contract Whilelist {
+contract Whitelist {
     bytes32 public merkleRoot;
     constructor (bytes32 _merkleRoot) {
         merkleRoot = _merkleRoot;
